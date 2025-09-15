@@ -6,7 +6,7 @@ using System.Threading;
 Console.WriteLine("Bitte gebe eine stunden anzahl an"); 
 int stunden = Convert.ToInt32(Console.ReadLine()); 
 int stundenZuSekunden = stunden * 60 * 60; 
-Console.WriteLine("Jetzt die Minuten. (Falls du nur stunden haben möchtest geb hier 0 ein)"); 
+Console.WriteLine("Jetzt die Minuten. (min 1"); 
 int minuten = Convert.ToInt32(Console.ReadLine()); 
 int minutenZuSekunden = minuten * 60;
 int sekunden = minutenZuSekunden + stundenZuSekunden;
